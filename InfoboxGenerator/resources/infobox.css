@@ -1,0 +1,58 @@
+/* Note: The contents of this file should be copied and added to MediaWiki:Common.css to enable the extension to work. */
+
+
+/* INFOBOX FORMATTING */
+
+.tolly-wiki-infobox-table {
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0 0 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em;
+}
+
+.tolly-wiki-infobox-field {
+    vertical-align: top;
+}
+
+.tolly-wiki-infobox-prename {
+    text-align: center;
+    font-size: 110%;
+}
+
+.tolly-wiki-infobox-mainname {
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.tolly-wiki-infobox-altname {
+    font-size: 125%;
+    text-align: center;
+}
+
+.tolly-wiki-infobox-topimage {
+    padding: 8px;
+}
+
+.tolly-wiki-infobox-topimage-caption {
+    text-align: center;
+}
+
+.tolly-wiki-infobox-list {
+    overflow: auto;
+}
+
+.tolly-wiki-infobox-list-header {
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.tolly-wiki-infobox-bottomimage-caption {
+    text-align: center;
+}

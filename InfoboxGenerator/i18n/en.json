@@ -1,0 +1,10 @@
+{
+    "infoboxgenerator": "Infobox Generator",
+    "name-section": "Name section",
+    "topimage-section": "Top image",
+    "bottomimage-section": "Bottom image",
+    "fields-section": "Fields",
+    "invalidsubpageerror": "'$1' is not a valid sub-page",
+    "missingparamserror": "Your request was missing certain required parameters. Did you use the form at [[Special:InfoboxGenerator]]?",
+    "inequalfieldserror": "The number of field names and field contents must be equal. Use your browser's back button to return to the form"
+}

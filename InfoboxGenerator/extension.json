@@ -1,0 +1,22 @@
+{
+    "name": "InfoboxGenerator",
+    "author": [
+        "Tolly Hill"
+    ],
+    "description": "Adds a [[Special:InfoboxGenerator|special page]] to generate infobox tables. <span style=\"color: red;\">Warning: For the output of this extension to work, you must add the contents of '''[{{SERVER}}/extensions/InfoboxGenerator/resources/infobox.css this file]''' to [[MediaWiki:Common.css]]",
+    "version": "1.1",
+    "license-name": "None",
+    "type": "specialpage",
+    "AutoloadClasses": {
+        "SpecialInfoboxGenerator": "includes/Special.php"
+    },
+    "SpecialPages": {
+        "InfoboxGenerator": "SpecialInfoboxGenerator"
+    },
+    "MessagesDirs": {
+        "InfoboxGenerator": [
+            "i18n"
+        ]
+    },
+    "manifest_version": 2
+}

@@ -1,0 +1,6 @@
+{
+    "attentionneedingpages": "Attention Needing Pages",
+    "notemplateserror": "The $wgAttentionTemplateNames configuration variable is empty, has not been set or is not an array. It must contain the name of at least one template.",
+    "badtemplatenameerror": "An invalid template name was provided.",
+    "noprovidedtemplateserror": "No templates were provided or the template parameter was in an invalid format."
+}

@@ -1,0 +1,28 @@
+{
+    "name": "AttentionNeedingPages",
+    "author": [
+        "Tolly Hill"
+    ],
+    "description": "Adds a [[Special:AttentionNeedingPages|special page]] to show pages that have at least one of a list of configurable templates transcluded onto them, designed to mark pages which require editing",
+    "version": "1.2",
+    "license-name": "None",
+    "type": "specialpage",
+    "AutoloadClasses": {
+        "SpecialAttentionNeedingPages": "includes/Special.php"
+    },
+    "SpecialPages": {
+        "AttentionNeedingPages": "SpecialAttentionNeedingPages"
+    },
+    "MessagesDirs": {
+        "AttentionNeedingPages": [
+            "i18n"
+        ]
+    },
+    "config": {
+        "AttentionTemplateNames": {
+            "value": [],
+            "description": "List of the names of the templates that should mark a page as needing attention"
+        }
+    },
+    "manifest_version": 2
+}
