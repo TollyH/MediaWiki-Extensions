@@ -42,12 +42,12 @@ class SpecialAttentionNeedingPages extends SpecialPage {
         $attentionPageNames = [];
         foreach ($attentionTemplateNames as $templateName) {
             $attentionPageIds = $dbr->select(
-                'templatelinks',
-                'tl_from',
-                [
-                    'tl_title' => $templateName
-                ],
-                __METHOD__
+                [ 'templatelinks', 'linktarget' ],
+                'templatelinks.tl_from',
+                [ 'linktarget.lt_title' => $templateName ],
+                __METHOD__,
+                [],
+                [ 'linktarget' => [ 'JOIN', 'templatelinks.tl_target_id = linktarget.lt_id' ] ]
             );
             foreach ($attentionPageIds as $pageId) {
                 $pageName = $dbr->select(
