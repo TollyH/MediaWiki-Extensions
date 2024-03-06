@@ -44,7 +44,7 @@ class SpecialAttentionNeedingPages extends SpecialPage {
             $attentionPageIds = $dbr->select(
                 [ 'templatelinks', 'linktarget' ],
                 'templatelinks.tl_from',
-                [ 'linktarget.lt_title' => $templateName ],
+                [ 'linktarget.lt_title' => str_replace(' ', '_', $templateName) ],
                 __METHOD__,
                 [],
                 [ 'linktarget' => [ 'JOIN', 'templatelinks.tl_target_id = linktarget.lt_id' ] ]
